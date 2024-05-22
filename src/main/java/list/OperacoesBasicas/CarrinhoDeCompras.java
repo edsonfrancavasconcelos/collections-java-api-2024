@@ -1,4 +1,4 @@
-package main.java.operacoesbasicas;
+package main.java.list.OperacoesBasicas;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -50,7 +50,7 @@ public class CarrinhoDeCompras {
         carrinho.adicionarProduto("Produto 5 ");
         carrinho.adicionarProduto("Produto 6 ");
 
-        carrinho.removerProduto("Produto 0 ");
+        carrinho.removerProduto("Produto 0");
         System.out.println("O número total de produtos no carrinho é " + carrinho.obterNumeroTotalProdutos());
 
         carrinho.obterNomesProdutos();

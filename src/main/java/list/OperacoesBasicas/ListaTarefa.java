@@ -1,4 +1,4 @@
-package main.java.List.OperacoesBasicas;
+package main.java.list.OperacoesBasicas;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -46,9 +46,22 @@ public class ListaTarefa {
         listaTarefa.adicionarTarefa("Tarefa 5");
         System.out.println("O número total de elementos na Lista é " + listaTarefa.obterNumeroTotalTarefas());
 
-        listaTarefa.removerTarefa("Tarefa 5");
+        listaTarefa.removerTarefa("Tarefa 0");
         System.out.println("O número total de elementos na Lista é " + listaTarefa.obterNumeroTotalTarefas());
 
         listaTarefa.obterDescricoesTarefas();
+    }
+}
+
+// Definição da classe Tarefa para completar o código
+class Tarefa {
+    private String descricao;
+
+    public Tarefa(String descricao) {
+        this.descricao = descricao;
+    }
+
+    public String getDescricao() {
+        return descricao;
     }
 }
