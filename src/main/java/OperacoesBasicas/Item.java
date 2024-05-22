@@ -1,2 +1,4 @@
-package main.java.OperacoesBasicas;public class Item {
+package main.java.OperacoesBasicas;
+
+public class Item {
 }

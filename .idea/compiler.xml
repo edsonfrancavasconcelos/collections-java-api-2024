@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <excludeFromCompile>
-      <file url="file://$PROJECT_DIR$/src/main/java/ListaTarefa.java" />
+      <file url="file://$PROJECT_DIR$/src/main/java/list/OperacoesBasicas/ListaTarefa.java" />
     </excludeFromCompile>
   </component>
 </project>

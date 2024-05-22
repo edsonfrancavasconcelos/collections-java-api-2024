@@ -1,2 +1,4 @@
-package main.java.OperacoesBasicas;public class Tarefas {
+package main.java.OperacoesBasicas;
+
+public class Tarefas {
 }

@@ -1,2 +1,4 @@
-package main.java.Pesquisa;public class SomaNumeros {
+package main.java.Pesquisa;
+
+public class SomaNumeros {
 }
