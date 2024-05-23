@@ -65,8 +65,8 @@ public class CatalogoLivros {
             System.out.println(l.getTitulo());
         }
 
-        System.out.println("\nPesquisando por título 'Livro 2':");
-        List<Livro> livrosPorTitulo = catalogo.pesquisarPorTitulo("Livro 2");
+        System.out.println("\nPesquisando por título 'Livro 4':");
+        List<Livro> livrosPorTitulo = catalogo.pesquisarPorTitulo("Livro 4");
         for (Livro l : livrosPorTitulo) {
             System.out.println(l.getTitulo() + " -" + l.getAutor() + " (" + l.getAnoPublicacao() + ")");
         }
