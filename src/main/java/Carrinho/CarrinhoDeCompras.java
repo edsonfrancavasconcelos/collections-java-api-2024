@@ -1,4 +1,4 @@
-package main.java.operacoesbasicas;
+package main.java.Carrinho;
 
 import java.util.ArrayList;
 import java.util.Iterator;
