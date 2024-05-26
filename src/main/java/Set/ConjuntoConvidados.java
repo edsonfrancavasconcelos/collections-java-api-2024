@@ -46,7 +46,7 @@ public class ConjuntoConvidados {
 
         conjuntoConvidados.exibirConvidados();
 
-        System.out.println("Existem " + conjuntoConvidados.contarConvidados() + " convidado(s) dentro do Set de Convidados.");
+    System.out.println("Existem " + conjuntoConvidados.contarConvidados() + " convidado(s) dentro do Set de Convidados.");
         System.out.println("Existe(m) código(s) de convite(s) em duplicidade.");
 
 
